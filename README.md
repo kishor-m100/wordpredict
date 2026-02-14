@@ -1,16 +1,26 @@
-# React + Vite
+# Word Predicto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based word guessing game where players must identify a hidden word within 8 attempts to save the programming world from Assembly.
 
-Currently, two official plugins are available:
+## 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [Word Predicto](https://wordpredicto.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Description
 
-## Expanding the ESLint configuration
+Word Predicto is an interactive word puzzle game that combines classic word-guessing mechanics with a programming theme. Players attempt to guess a randomly selected word by choosing letters from an on-screen keyboard. Each incorrect guess causes a programming language to be lost to Assembly, creating an engaging race against diminishing attempts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Random word generation for each game session
+- Interactive virtual keyboard with visual feedback
+- Programming language chips that track remaining attempts
+- Real-time letter reveal system
+- Celebratory confetti animation on victory
+- Dramatic particle effects on defeat
+- Custom farewell messages for each lost programming language
+- Full accessibility support with ARIA labels and screen reader compatibility
+- Responsive game state management
+- New game functionality to play repeatedly
